@@ -54,11 +54,11 @@ def main():
                                 if gues == user_id:
                                         lcd.message = (row['Name'])
                                         #lcd.message = ("\n" + row['ID'])
-                                        lcd.message = ('\n'+row['Time'] + 'Min o                                                                             f Time')
+                                        lcd.message = ('\n'+row['Time'] + 'Min of Time')
                                         GPIO.output(21, GPIO.HIGH)
                                         time.sleep(2)
                                         lcd.clear()
-                                        #lcd.message = (row['Time'] + 'Min of Ti                                                                             me')
+                                        #lcd.message = (row['Time'] + 'Min of Time')
                                         #time.sleep(2)
                                         #lcd.clear()
                                         GPIO.output(21, GPIO.LOW)
